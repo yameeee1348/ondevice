@@ -1,0 +1,44 @@
+# Vivado temporary files
+
+*.txt
+.Xil/
+.cache/
+
+# Vivado Project files
+*.tmp
+
+# Backup files
+*.bak
+
+# Waveform data
+*.vcd
+*.wdb
+
+# vscode c compiler
+.vscode/
+
+# Vivado junk files
+*.jou
+*.log
+*.str
+*.os
+.Xil/
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+
+# Vitis/SDK junk files
+.metadata/
+.sdk/
+RemoteSystemsTempFiles/
+*/Debug/
+*/_ide/
+*.log
+
+# Compilation & Binary files
+*.o
+*.elf
+*.bit
+*.bin

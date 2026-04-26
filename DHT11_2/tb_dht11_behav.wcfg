@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_dht11_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_dht11" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="20774822642fs"></ZoomStartTime>
+      <ZoomEndTime time="22417822643fs"></ZoomEndTime>
+      <Cursor1Time time="21574822642fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="176"></NameColumnWidth>
+      <ValueColumnWidth column_width="77"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="41" />
+   <wvobject fp_name="/tb_dht11/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_dht11/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_dht11/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_dht11/sensor_drive_en" type="logic">
+      <obj_property name="ElementShortName">sensor_drive_en</obj_property>
+      <obj_property name="ObjectShortName">sensor_drive_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_dht11/sensor_drive_val" type="logic">
+      <obj_property name="ElementShortName">sensor_drive_val</obj_property>
+      <obj_property name="ObjectShortName">sensor_drive_val</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_dht11/dhtio" type="logic">
+      <obj_property name="ElementShortName">dhtio</obj_property>
+      <obj_property name="ObjectShortName">dhtio</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_dht11/temperature" type="array">
+      <obj_property name="ElementShortName">temperature[15:0]</obj_property>
+      <obj_property name="ObjectShortName">temperature[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_dht11/DHT11_done" type="logic">
+      <obj_property name="ElementShortName">DHT11_done</obj_property>
+      <obj_property name="ObjectShortName">DHT11_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_dht11/DHT11_valid" type="logic">
+      <obj_property name="ElementShortName">DHT11_valid</obj_property>
+      <obj_property name="ObjectShortName">DHT11_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_dht11/debug" type="array">
+      <obj_property name="ElementShortName">debug[2:0]</obj_property>
+      <obj_property name="ObjectShortName">debug[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_dht11/humidity" type="array">
+      <obj_property name="ElementShortName">humidity[15:0]</obj_property>
+      <obj_property name="ObjectShortName">humidity[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_dht11/dut/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_dht11/dut/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_dht11/dut/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_dht11/dut/humidity" type="array">
+      <obj_property name="ElementShortName">humidity[15:0]</obj_property>
+      <obj_property name="ObjectShortName">humidity[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_dht11/dut/temperature" type="array">
+      <obj_property name="ElementShortName">temperature[15:0]</obj_property>
+      <obj_property name="ObjectShortName">temperature[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_dht11/dut/DHT11_done" type="logic">
+      <obj_property name="ElementShortName">DHT11_done</obj_property>
+      <obj_property name="ObjectShortName">DHT11_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_dht11/dut/DHT11_valid" type="logic">
+      <obj_property name="ElementShortName">DHT11_valid</obj_property>
+      <obj_property name="ObjectShortName">DHT11_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_dht11/dut/debug" type="array">
+      <obj_property name="ElementShortName">debug[2:0]</obj_property>
+      <obj_property name="ObjectShortName">debug[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_dht11/dut/dhtio" type="logic">
+      <obj_property name="ElementShortName">dhtio</obj_property>
+      <obj_property name="ObjectShortName">dhtio</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_dht11/dut/tick_10u" type="logic">
+      <obj_property name="ElementShortName">tick_10u</obj_property>
+      <obj_property name="ObjectShortName">tick_10u</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_dht11/dut/c_state" type="array">
+      <obj_property name="ElementShortName">c_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">c_state[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_dht11/dut/n_state" type="array">
+      <obj_property name="ElementShortName">n_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">n_state[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_dht11/dut/dhtio_reg" type="logic">
+      <obj_property name="ElementShortName">dhtio_reg</obj_property>
+      <obj_property name="ObjectShortName">dhtio_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_dht11/dut/dhtio_next" type="logic">
+      <obj_property name="ElementShortName">dhtio_next</obj_property>
+      <obj_property name="ObjectShortName">dhtio_next</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_dht11/dut/io_sel_reg" type="logic">
+      <obj_property name="ElementShortName">io_sel_reg</obj_property>
+      <obj_property name="ObjectShortName">io_sel_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_dht11/dut/io_sel_next" type="logic">
+      <obj_property name="ElementShortName">io_sel_next</obj_property>
+      <obj_property name="ObjectShortName">io_sel_next</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_dht11/dut/tick_cnt_reg" type="array">
+      <obj_property name="ElementShortName">tick_cnt_reg[11:0]</obj_property>
+      <obj_property name="ObjectShortName">tick_cnt_reg[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_dht11/dut/tick_cnt_next" type="array">
+      <obj_property name="ElementShortName">tick_cnt_next[11:0]</obj_property>
+      <obj_property name="ObjectShortName">tick_cnt_next[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_dht11/dut/bit_cnt_reg" type="array">
+      <obj_property name="ElementShortName">bit_cnt_reg[5:0]</obj_property>
+      <obj_property name="ObjectShortName">bit_cnt_reg[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_dht11/dut/bit_cnt_next" type="array">
+      <obj_property name="ElementShortName">bit_cnt_next[5:0]</obj_property>
+      <obj_property name="ObjectShortName">bit_cnt_next[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_dht11/dut/data_reg" type="array">
+      <obj_property name="ElementShortName">data_reg[39:0]</obj_property>
+      <obj_property name="ObjectShortName">data_reg[39:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_dht11/dut/data_next" type="array">
+      <obj_property name="ElementShortName">data_next[39:0]</obj_property>
+      <obj_property name="ObjectShortName">data_next[39:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_dht11/dut/IDLE" type="array">
+      <obj_property name="ElementShortName">IDLE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IDLE[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_dht11/dut/START" type="array">
+      <obj_property name="ElementShortName">START[31:0]</obj_property>
+      <obj_property name="ObjectShortName">START[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_dht11/dut/WAIT" type="array">
+      <obj_property name="ElementShortName">WAIT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WAIT[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_dht11/dut/SYNC_L" type="array">
+      <obj_property name="ElementShortName">SYNC_L[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SYNC_L[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_dht11/dut/SYNC_H" type="array">
+      <obj_property name="ElementShortName">SYNC_H[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SYNC_H[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_dht11/dut/DATA_SYNC" type="array">
+      <obj_property name="ElementShortName">DATA_SYNC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_SYNC[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_dht11/dut/DATA_C" type="array">
+      <obj_property name="ElementShortName">DATA_C[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_C[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_dht11/dut/STOP" type="array">
+      <obj_property name="ElementShortName">STOP[31:0]</obj_property>
+      <obj_property name="ObjectShortName">STOP[31:0]</obj_property>
+   </wvobject>
+</wave_config>

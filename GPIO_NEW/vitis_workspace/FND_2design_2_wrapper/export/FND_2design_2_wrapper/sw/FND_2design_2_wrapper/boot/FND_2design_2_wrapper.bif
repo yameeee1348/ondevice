@@ -1,0 +1,6 @@
+/*FND_2design_2_wrapper*/
+the_ROM_image:
+{
+   <bitstream> 
+   <elf> 
+}

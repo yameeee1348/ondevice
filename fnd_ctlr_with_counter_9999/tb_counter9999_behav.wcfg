@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_counter9999_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_counter9999" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="299999983916fs"></ZoomStartTime>
+      <ZoomEndTime time="300000057217fs"></ZoomEndTime>
+      <Cursor1Time time="300000045000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="150"></NameColumnWidth>
+      <ValueColumnWidth column_width="71"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="13" />
+   <wvobject fp_name="/tb_counter9999/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_counter9999/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_counter9999/fnd_data" type="array">
+      <obj_property name="ElementShortName">fnd_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">fnd_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_counter9999/fnd_digit" type="array">
+      <obj_property name="ElementShortName">fnd_digit[3:0]</obj_property>
+      <obj_property name="ObjectShortName">fnd_digit[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_counter9999/dut/U_fnd_counter/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_counter9999/dut/U_fnd_counter/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_counter9999/dut/U_fnd_counter/i_tick" type="logic">
+      <obj_property name="ElementShortName">i_tick</obj_property>
+      <obj_property name="ObjectShortName">i_tick</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_counter9999/dut/U_fnd_counter/counter" type="array">
+      <obj_property name="ElementShortName">counter[13:0]</obj_property>
+      <obj_property name="ObjectShortName">counter[13:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_counter9999/dut/U_fnd_counter/counter_r" type="array">
+      <obj_property name="ElementShortName">counter_r[13:0]</obj_property>
+      <obj_property name="ObjectShortName">counter_r[13:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_counter9999/dut/U_tick_gen/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_counter9999/dut/U_tick_gen/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_counter9999/dut/U_tick_gen/o_tick_10" type="logic">
+      <obj_property name="ElementShortName">o_tick_10</obj_property>
+      <obj_property name="ObjectShortName">o_tick_10</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_counter9999/dut/U_tick_gen/counter_r" type="array">
+      <obj_property name="ElementShortName">counter_r[23:0]</obj_property>
+      <obj_property name="ObjectShortName">counter_r[23:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

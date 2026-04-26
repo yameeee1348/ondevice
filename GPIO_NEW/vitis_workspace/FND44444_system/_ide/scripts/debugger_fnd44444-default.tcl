@@ -1,0 +1,24 @@
+# Usage with Vitis IDE:
+# In Vitis IDE create a Single Application Debug launch configuration,
+# change the debug type to 'Attach to running target' and provide this 
+# tcl script in 'Execute Script' option.
+# Path of this script: C:\won\ondivce\GPIO_NEW\vitis_workspace\FND44444_system\_ide\scripts\debugger_fnd44444-default.tcl
+# 
+# 
+# Usage with xsct:
+# To debug using xsct, launch xsct and run below command
+# source C:\won\ondivce\GPIO_NEW\vitis_workspace\FND44444_system\_ide\scripts\debugger_fnd44444-default.tcl
+# 
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B31B0FA" && level==0 && jtag_device_ctx=="jsn-Basys3-210183B31B0FA-0362d093-0"}
+fpga -file C:/won/ondivce/GPIO_NEW/vitis_workspace/FND44444/_ide/bitstream/fnd4design_1_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/won/ondivce/GPIO_NEW/vitis_workspace/fnd4design_1_wrapper/export/fnd4design_1_wrapper/hw/fnd4design_1_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/won/ondivce/GPIO_NEW/vitis_workspace/FND44444/Debug/FND44444.elf
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con

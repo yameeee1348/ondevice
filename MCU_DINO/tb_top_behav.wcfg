@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_top_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_top" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="7574000fs"></ZoomStartTime>
+      <ZoomEndTime time="9449001fs"></ZoomEndTime>
+      <Cursor1Time time="8415000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="239"></NameColumnWidth>
+      <ValueColumnWidth column_width="108"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="7" />
+   <wvobject fp_name="/tb_top/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/rx" type="logic">
+      <obj_property name="ElementShortName">rx</obj_property>
+      <obj_property name="ObjectShortName">rx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/tx" type="logic">
+      <obj_property name="ElementShortName">tx</obj_property>
+      <obj_property name="ObjectShortName">tx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/button" type="logic">
+      <obj_property name="ElementShortName">button</obj_property>
+      <obj_property name="ObjectShortName">button</obj_property>
+   </wvobject>
+   <wvobject fp_name="group2212" type="group">
+      <obj_property name="label">APB</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_top/dut/U_APB_Master_Interface/PCLK" type="logic">
+         <obj_property name="ElementShortName">PCLK</obj_property>
+         <obj_property name="ObjectShortName">PCLK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/dut/U_APB_Master_Interface/PRESET" type="logic">
+         <obj_property name="ElementShortName">PRESET</obj_property>
+         <obj_property name="ObjectShortName">PRESET</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/dut/U_APB_Master_Interface/PADDR" type="array">
+         <obj_property name="ElementShortName">PADDR[31:0]</obj_property>
+         <obj_property name="ObjectShortName">PADDR[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/dut/U_APB_Master_Interface/PWRITE" type="logic">
+         <obj_property name="ElementShortName">PWRITE</obj_property>
+         <obj_property name="ObjectShortName">PWRITE</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/dut/U_APB_Master_Interface/PSEL_RAM" type="logic">
+         <obj_property name="ElementShortName">PSEL_RAM</obj_property>
+         <obj_property name="ObjectShortName">PSEL_RAM</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/dut/U_APB_Master_Interface/PSEL_GPO" type="logic">
+         <obj_property name="ElementShortName">PSEL_GPO</obj_property>
+         <obj_property name="ObjectShortName">PSEL_GPO</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/dut/U_APB_Master_Interface/PSEL_GPI" type="logic">
+         <obj_property name="ElementShortName">PSEL_GPI</obj_property>
+         <obj_property name="ObjectShortName">PSEL_GPI</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/dut/U_APB_Master_Interface/PSEL_GPIO" type="logic">
+         <obj_property name="ElementShortName">PSEL_GPIO</obj_property>
+         <obj_property name="ObjectShortName">PSEL_GPIO</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/dut/U_APB_Master_Interface/PSEL_FND" type="logic">
+         <obj_property name="ElementShortName">PSEL_FND</obj_property>
+         <obj_property name="ObjectShortName">PSEL_FND</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/dut/U_APB_Master_Interface/PSEL_UART" type="logic">
+         <obj_property name="ElementShortName">PSEL_UART</obj_property>
+         <obj_property name="ObjectShortName">PSEL_UART</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/dut/U_APB_Master_Interface/PSEL_PWM" type="logic">
+         <obj_property name="ElementShortName">PSEL_PWM</obj_property>
+         <obj_property name="ObjectShortName">PSEL_PWM</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/dut/U_APB_Master_Interface/PSEL_DHT11" type="logic">
+         <obj_property name="ElementShortName">PSEL_DHT11</obj_property>
+         <obj_property name="ObjectShortName">PSEL_DHT11</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/dut/U_APB_Master_Interface/PSEL_HC_SR04" type="logic">
+         <obj_property name="ElementShortName">PSEL_HC_SR04</obj_property>
+         <obj_property name="ObjectShortName">PSEL_HC_SR04</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/dut/U_APB_Master_Interface/PENABLE" type="logic">
+         <obj_property name="ElementShortName">PENABLE</obj_property>
+         <obj_property name="ObjectShortName">PENABLE</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/dut/U_APB_Master_Interface/PWDATA" type="array">
+         <obj_property name="ElementShortName">PWDATA[31:0]</obj_property>
+         <obj_property name="ObjectShortName">PWDATA[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/dut/U_APB_Master_Interface/PRDATA_RAM" type="array">
+         <obj_property name="ElementShortName">PRDATA_RAM[31:0]</obj_property>
+         <obj_property name="ObjectShortName">PRDATA_RAM[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/dut/U_APB_Master_Interface/PRDATA_GPO" type="array">
+         <obj_property name="ElementShortName">PRDATA_GPO[31:0]</obj_property>
+         <obj_property name="ObjectShortName">PRDATA_GPO[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/dut/U_APB_Master_Interface/PRDATA_GPI" type="array">
+         <obj_property name="ElementShortName">PRDATA_GPI[31:0]</obj_property>
+         <obj_property name="ObjectShortName">PRDATA_GPI[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/dut/U_APB_Master_Interface/PRDATA_GPIO" type="array">
+         <obj_property name="ElementShortName">PRDATA_GPIO[31:0]</obj_property>
+         <obj_property name="ObjectShortName">PRDATA_GPIO[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/dut/U_APB_Master_Interface/PRDATA_FND" type="array">
+         <obj_property name="ElementShortName">PRDATA_FND[31:0]</obj_property>
+         <obj_property name="ObjectShortName">PRDATA_FND[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/dut/U_APB_Master_Interface/PRDATA_UART" type="array">
+         <obj_property name="ElementShortName">PRDATA_UART[31:0]</obj_property>
+         <obj_property name="ObjectShortName">PRDATA_UART[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/dut/U_APB_Master_Interface/PRDATA_PWM" type="array">
+         <obj_property name="ElementShortName">PRDATA_PWM[31:0]</obj_property>
+         <obj_property name="ObjectShortName">PRDATA_PWM[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/dut/U_APB_Master_Interface/PRDATA_DHT11" type="array">
+         <obj_property name="ElementShortName">PRDATA_DHT11[31:0]</obj_property>
+         <obj_property name="ObjectShortName">PRDATA_DHT11[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/dut/U_APB_Master_Interface/PRDATA_HC_SR04" type="array">
+         <obj_property name="ElementShortName">PRDATA_HC_SR04[31:0]</obj_property>
+         <obj_property name="ObjectShortName">PRDATA_HC_SR04[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/dut/U_APB_Master_Interface/PREADY_RAM" type="logic">
+         <obj_property name="ElementShortName">PREADY_RAM</obj_property>
+         <obj_property name="ObjectShortName">PREADY_RAM</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/dut/U_APB_Master_Interface/PREADY_GPO" type="logic">
+         <obj_property name="ElementShortName">PREADY_GPO</obj_property>
+         <obj_property name="ObjectShortName">PREADY_GPO</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/dut/U_APB_Master_Interface/PREADY_GPI" type="logic">
+         <obj_property name="ElementShortName">PREADY_GPI</obj_property>
+         <obj_property name="ObjectShortName">PREADY_GPI</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/dut/U_APB_Master_Interface/PREADY_GPIO" type="logic">
+         <obj_property name="ElementShortName">PREADY_GPIO</obj_property>
+         <obj_property name="ObjectShortName">PREADY_GPIO</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/dut/U_APB_Master_Interface/PREADY_FND" type="logic">
+         <obj_property name="ElementShortName">PREADY_FND</obj_property>
+         <obj_property name="ObjectShortName">PREADY_FND</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/dut/U_APB_Master_Interface/PREADY_UART" type="logic">
+         <obj_property name="ElementShortName">PREADY_UART</obj_property>
+         <obj_property name="ObjectShortName">PREADY_UART</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/dut/U_APB_Master_Interface/PREADY_PWM" type="logic">
+         <obj_property name="ElementShortName">PREADY_PWM</obj_property>
+         <obj_property name="ObjectShortName">PREADY_PWM</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/dut/U_APB_Master_Interface/PREADY_DHT11" type="logic">
+         <obj_property name="ElementShortName">PREADY_DHT11</obj_property>
+         <obj_property name="ObjectShortName">PREADY_DHT11</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/dut/U_APB_Master_Interface/PREADY_HC_SR04" type="logic">
+         <obj_property name="ElementShortName">PREADY_HC_SR04</obj_property>
+         <obj_property name="ObjectShortName">PREADY_HC_SR04</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/dut/U_APB_Master_Interface/write" type="logic">
+         <obj_property name="ElementShortName">write</obj_property>
+         <obj_property name="ObjectShortName">write</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/dut/U_APB_Master_Interface/addr" type="array">
+         <obj_property name="ElementShortName">addr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">addr[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/dut/U_APB_Master_Interface/wdata" type="array">
+         <obj_property name="ElementShortName">wdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">wdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/dut/U_APB_Master_Interface/rdata" type="array">
+         <obj_property name="ElementShortName">rdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">rdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/dut/U_APB_Master_Interface/req" type="logic">
+         <obj_property name="ElementShortName">req</obj_property>
+         <obj_property name="ObjectShortName">req</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/dut/U_APB_Master_Interface/ready" type="logic">
+         <obj_property name="ElementShortName">ready</obj_property>
+         <obj_property name="ObjectShortName">ready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/dut/U_APB_Master_Interface/selx" type="array">
+         <obj_property name="ElementShortName">selx[8:0]</obj_property>
+         <obj_property name="ObjectShortName">selx[8:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/dut/U_APB_Master_Interface/decoder_en" type="logic">
+         <obj_property name="ElementShortName">decoder_en</obj_property>
+         <obj_property name="ObjectShortName">decoder_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/dut/U_APB_Master_Interface/temp_addr" type="array">
+         <obj_property name="ElementShortName">temp_addr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">temp_addr[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/dut/U_APB_Master_Interface/temp_wdata" type="array">
+         <obj_property name="ElementShortName">temp_wdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">temp_wdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/dut/U_APB_Master_Interface/temp_addr_next" type="array">
+         <obj_property name="ElementShortName">temp_addr_next[31:0]</obj_property>
+         <obj_property name="ObjectShortName">temp_addr_next[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/dut/U_APB_Master_Interface/temp_wdata_next" type="array">
+         <obj_property name="ElementShortName">temp_wdata_next[31:0]</obj_property>
+         <obj_property name="ObjectShortName">temp_wdata_next[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/dut/U_APB_Master_Interface/temp_write" type="logic">
+         <obj_property name="ElementShortName">temp_write</obj_property>
+         <obj_property name="ObjectShortName">temp_write</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/dut/U_APB_Master_Interface/temp_write_next" type="logic">
+         <obj_property name="ElementShortName">temp_write_next</obj_property>
+         <obj_property name="ObjectShortName">temp_write_next</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/dut/U_APB_Master_Interface/state" type="array">
+         <obj_property name="ElementShortName">state[1:0]</obj_property>
+         <obj_property name="ObjectShortName">state[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/dut/U_APB_Master_Interface/state_next" type="array">
+         <obj_property name="ElementShortName">state_next[1:0]</obj_property>
+         <obj_property name="ObjectShortName">state_next[1:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group2231" type="group">
+      <obj_property name="label">UART</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_top/dut/U_UART/PCLK" type="logic">
+         <obj_property name="ElementShortName">PCLK</obj_property>
+         <obj_property name="ObjectShortName">PCLK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/dut/U_UART/PRESET" type="logic">
+         <obj_property name="ElementShortName">PRESET</obj_property>
+         <obj_property name="ObjectShortName">PRESET</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/dut/U_UART/PADDR" type="array">
+         <obj_property name="ElementShortName">PADDR[31:0]</obj_property>
+         <obj_property name="ObjectShortName">PADDR[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/dut/U_UART/PWRITE" type="logic">
+         <obj_property name="ElementShortName">PWRITE</obj_property>
+         <obj_property name="ObjectShortName">PWRITE</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/dut/U_UART/PSEL" type="logic">
+         <obj_property name="ElementShortName">PSEL</obj_property>
+         <obj_property name="ObjectShortName">PSEL</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/dut/U_UART/PENABLE" type="logic">
+         <obj_property name="ElementShortName">PENABLE</obj_property>
+         <obj_property name="ObjectShortName">PENABLE</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/dut/U_UART/PWDATA" type="array">
+         <obj_property name="ElementShortName">PWDATA[31:0]</obj_property>
+         <obj_property name="ObjectShortName">PWDATA[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/dut/U_UART/PRDATA" type="array">
+         <obj_property name="ElementShortName">PRDATA[31:0]</obj_property>
+         <obj_property name="ObjectShortName">PRDATA[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/dut/U_UART/PREADY" type="logic">
+         <obj_property name="ElementShortName">PREADY</obj_property>
+         <obj_property name="ObjectShortName">PREADY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/dut/U_UART/start_button" type="logic">
+         <obj_property name="ElementShortName">start_button</obj_property>
+         <obj_property name="ObjectShortName">start_button</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/dut/U_UART/rx" type="logic">
+         <obj_property name="ElementShortName">rx</obj_property>
+         <obj_property name="ObjectShortName">rx</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/dut/U_UART/tx" type="logic">
+         <obj_property name="ElementShortName">tx</obj_property>
+         <obj_property name="ObjectShortName">tx</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/dut/U_UART/prescaler" type="array">
+         <obj_property name="ElementShortName">prescaler[31:0]</obj_property>
+         <obj_property name="ObjectShortName">prescaler[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/dut/U_UART/prescaler_16" type="array">
+         <obj_property name="ElementShortName">prescaler_16[31:0]</obj_property>
+         <obj_property name="ObjectShortName">prescaler_16[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/dut/U_UART/tx_data" type="array">
+         <obj_property name="ElementShortName">tx_data[7:0]</obj_property>
+         <obj_property name="ObjectShortName">tx_data[7:0]</obj_property>
+         <obj_property name="Radix">ASCIIRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/dut/U_UART/rx_data" type="array">
+         <obj_property name="ElementShortName">rx_data[7:0]</obj_property>
+         <obj_property name="ObjectShortName">rx_data[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/dut/U_UART/control" type="logic">
+         <obj_property name="ElementShortName">control</obj_property>
+         <obj_property name="ObjectShortName">control</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/dut/U_UART/clk_out" type="logic">
+         <obj_property name="ElementShortName">clk_out</obj_property>
+         <obj_property name="ObjectShortName">clk_out</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

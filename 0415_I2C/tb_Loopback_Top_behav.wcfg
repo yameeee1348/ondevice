@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_Loopback_Top_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_Loopback_Top" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="792741667fs"></ZoomStartTime>
+      <ZoomEndTime time="824301668fs"></ZoomEndTime>
+      <Cursor1Time time="800135000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="169"></NameColumnWidth>
+      <ValueColumnWidth column_width="77"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="7" />
+   <wvobject fp_name="/tb_Loopback_Top/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Loopback_Top/switch" type="array">
+      <obj_property name="ElementShortName">switch[7:0]</obj_property>
+      <obj_property name="ObjectShortName">switch[7:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Loopback_Top/led" type="array">
+      <obj_property name="ElementShortName">led[7:0]</obj_property>
+      <obj_property name="ObjectShortName">led[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Loopback_Top/i2c_sda_bus" type="logic">
+      <obj_property name="ElementShortName">i2c_sda_bus</obj_property>
+      <obj_property name="ObjectShortName">i2c_sda_bus</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Loopback_Top/i2c_scl_bus" type="logic">
+      <obj_property name="ElementShortName">i2c_scl_bus</obj_property>
+      <obj_property name="ObjectShortName">i2c_scl_bus</obj_property>
+   </wvobject>
+   <wvobject fp_name="group34" type="group">
+      <obj_property name="label">master</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_Loopback_Top/uut/u_master1/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Loopback_Top/uut/u_master1/reset" type="logic">
+         <obj_property name="ElementShortName">reset</obj_property>
+         <obj_property name="ObjectShortName">reset</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Loopback_Top/uut/u_master1/tx_data" type="array">
+         <obj_property name="ElementShortName">tx_data[7:0]</obj_property>
+         <obj_property name="ObjectShortName">tx_data[7:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Loopback_Top/uut/u_master1/ack_in" type="logic">
+         <obj_property name="ElementShortName">ack_in</obj_property>
+         <obj_property name="ObjectShortName">ack_in</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Loopback_Top/uut/u_master1/rx_data" type="array">
+         <obj_property name="ElementShortName">rx_data[7:0]</obj_property>
+         <obj_property name="ObjectShortName">rx_data[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Loopback_Top/uut/u_master1/done" type="logic">
+         <obj_property name="ElementShortName">done</obj_property>
+         <obj_property name="ObjectShortName">done</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Loopback_Top/uut/u_master1/ack_out" type="logic">
+         <obj_property name="ElementShortName">ack_out</obj_property>
+         <obj_property name="ObjectShortName">ack_out</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Loopback_Top/uut/u_master1/busy" type="logic">
+         <obj_property name="ElementShortName">busy</obj_property>
+         <obj_property name="ObjectShortName">busy</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Loopback_Top/uut/u_master1/sda" type="logic">
+         <obj_property name="ElementShortName">sda</obj_property>
+         <obj_property name="ObjectShortName">sda</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Loopback_Top/uut/u_master1/scl" type="logic">
+         <obj_property name="ElementShortName">scl</obj_property>
+         <obj_property name="ObjectShortName">scl</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Loopback_Top/uut/u_master1/state" type="array">
+         <obj_property name="ElementShortName">state[2:0]</obj_property>
+         <obj_property name="ObjectShortName">state[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Loopback_Top/uut/u_master1/div_cnt" type="array">
+         <obj_property name="ElementShortName">div_cnt[7:0]</obj_property>
+         <obj_property name="ObjectShortName">div_cnt[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Loopback_Top/uut/u_master1/qtr_tick" type="logic">
+         <obj_property name="ElementShortName">qtr_tick</obj_property>
+         <obj_property name="ObjectShortName">qtr_tick</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Loopback_Top/uut/u_master1/sda_r" type="logic">
+         <obj_property name="ElementShortName">sda_r</obj_property>
+         <obj_property name="ObjectShortName">sda_r</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Loopback_Top/uut/u_master1/scl_r" type="logic">
+         <obj_property name="ElementShortName">scl_r</obj_property>
+         <obj_property name="ObjectShortName">scl_r</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Loopback_Top/uut/u_master1/step" type="array">
+         <obj_property name="ElementShortName">step[1:0]</obj_property>
+         <obj_property name="ObjectShortName">step[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Loopback_Top/uut/u_master1/tx_shift_reg" type="array">
+         <obj_property name="ElementShortName">tx_shift_reg[7:0]</obj_property>
+         <obj_property name="ObjectShortName">tx_shift_reg[7:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Loopback_Top/uut/u_master1/rx_shift_reg" type="array">
+         <obj_property name="ElementShortName">rx_shift_reg[7:0]</obj_property>
+         <obj_property name="ObjectShortName">rx_shift_reg[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Loopback_Top/uut/u_master1/bit_cnt" type="array">
+         <obj_property name="ElementShortName">bit_cnt[2:0]</obj_property>
+         <obj_property name="ObjectShortName">bit_cnt[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Loopback_Top/uut/u_master1/is_read" type="logic">
+         <obj_property name="ElementShortName">is_read</obj_property>
+         <obj_property name="ObjectShortName">is_read</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Loopback_Top/uut/u_master1/ack_in_r" type="logic">
+         <obj_property name="ElementShortName">ack_in_r</obj_property>
+         <obj_property name="ObjectShortName">ack_in_r</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Loopback_Top/uut/u_master1/sda_i" type="logic">
+         <obj_property name="ElementShortName">sda_i</obj_property>
+         <obj_property name="ObjectShortName">sda_i</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group55" type="group">
+      <obj_property name="label">slave</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_Loopback_Top/uut/u_slave/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Loopback_Top/uut/u_slave/reset" type="logic">
+         <obj_property name="ElementShortName">reset</obj_property>
+         <obj_property name="ObjectShortName">reset</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Loopback_Top/uut/u_slave/slave_addr" type="array">
+         <obj_property name="ElementShortName">slave_addr[6:0]</obj_property>
+         <obj_property name="ObjectShortName">slave_addr[6:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Loopback_Top/uut/u_slave/rx_data" type="array">
+         <obj_property name="ElementShortName">rx_data[7:0]</obj_property>
+         <obj_property name="ObjectShortName">rx_data[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Loopback_Top/uut/u_slave/rx_valid" type="logic">
+         <obj_property name="ElementShortName">rx_valid</obj_property>
+         <obj_property name="ObjectShortName">rx_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Loopback_Top/uut/u_slave/tx_data" type="array">
+         <obj_property name="ElementShortName">tx_data[7:0]</obj_property>
+         <obj_property name="ObjectShortName">tx_data[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Loopback_Top/uut/u_slave/sda" type="logic">
+         <obj_property name="ElementShortName">sda</obj_property>
+         <obj_property name="ObjectShortName">sda</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Loopback_Top/uut/u_slave/scl" type="logic">
+         <obj_property name="ElementShortName">scl</obj_property>
+         <obj_property name="ObjectShortName">scl</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Loopback_Top/uut/u_slave/sda_out" type="logic">
+         <obj_property name="ElementShortName">sda_out</obj_property>
+         <obj_property name="ObjectShortName">sda_out</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Loopback_Top/uut/u_slave/sda_en" type="logic">
+         <obj_property name="ElementShortName">sda_en</obj_property>
+         <obj_property name="ObjectShortName">sda_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Loopback_Top/uut/u_slave/scl_sync" type="array">
+         <obj_property name="ElementShortName">scl_sync[2:0]</obj_property>
+         <obj_property name="ObjectShortName">scl_sync[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Loopback_Top/uut/u_slave/sda_sync" type="array">
+         <obj_property name="ElementShortName">sda_sync[2:0]</obj_property>
+         <obj_property name="ObjectShortName">sda_sync[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Loopback_Top/uut/u_slave/state" type="array">
+         <obj_property name="ElementShortName">state[2:0]</obj_property>
+         <obj_property name="ObjectShortName">state[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Loopback_Top/uut/u_slave/bit_cnt" type="array">
+         <obj_property name="ElementShortName">bit_cnt[2:0]</obj_property>
+         <obj_property name="ObjectShortName">bit_cnt[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Loopback_Top/uut/u_slave/shift_reg" type="array">
+         <obj_property name="ElementShortName">shift_reg[7:0]</obj_property>
+         <obj_property name="ObjectShortName">shift_reg[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_Loopback_Top/uut/u_slave/is_read" type="logic">
+         <obj_property name="ElementShortName">is_read</obj_property>
+         <obj_property name="ObjectShortName">is_read</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="GPIO" location="C:/won/ondivce/GPIO_NEW/vitis_workspace/GPIO" platform="C:/won/ondivce/GPIO_NEW/vitis_workspace/GPIO_design_1_wrapper/export/GPIO_design_1_wrapper/GPIO_design_1_wrapper.xpfm" platformUID="xilinx:basys3::0.0(custom)" systemProject="GPIO_system" sysConfig="GPIO_design_1_wrapper" runtime="cpp" cpu="standalone_microblaze_0" cpuInstance="microblaze_0" os="standalone" mssSignature="5e054ac856d362086f911abb7505c05e">
+  <configuration name="Debug" id="xilinx.gnu.mb.exe.debug.306286733">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.mb.exe.release.1160140215" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="empty_application"/>
+</sdkproject:SdkProject>

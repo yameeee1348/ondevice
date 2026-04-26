@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ASCII"?>
+<systemproject:SystemProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" xmlns:systemproject="http://www.xilinx.com/systemproject" name="FNDre_system" platform="C:/won/ondivce/GPIO_NEW/vitis_workspace/FNDredesign_1_wrapper/export/FNDredesign_1_wrapper/FNDredesign_1_wrapper.xpfm" platformUID="xilinx:basys3::0.0(custom)" sysConfig="FNDredesign_1_wrapper" runtime="cpp" rootFSLocation="" linuxImage="" sysroot="">
+  <configuration name="Debug" id="com.xilinx.sdx.system.managedbuilder.debugConfiguration.1188173590">
+    <configBuildOptions xsi:type="systemproject:SystemOptions">
+      <applications name="FNDre" domainName="standalone_microblaze_0" domainPrettyName="standalone_microblaze_0" appBuildConfig="Debug"/>
+      <options xsi:type="sdkproject:SdkOptions" generateSdCard="true"/>
+    </configBuildOptions>
+  </configuration>
+  <configuration name="Release" id="com.xilinx.sdx.system.managedbuilder.releaseConfiguration.154113270">
+    <configBuildOptions xsi:type="systemproject:SystemOptions">
+      <applications name="FNDre" domainName="standalone_microblaze_0" domainPrettyName="standalone_microblaze_0" appBuildConfig="Release"/>
+      <options xsi:type="sdkproject:SdkOptions" generateSdCard="true"/>
+    </configBuildOptions>
+  </configuration>
+</systemproject:SystemProject>

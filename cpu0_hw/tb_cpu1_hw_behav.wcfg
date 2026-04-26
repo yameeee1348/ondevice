@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_cpu1_hw_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_cpu1_hw" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="716501fs"></ZoomEndTime>
+      <Cursor1Time time="0fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="146"></NameColumnWidth>
+      <ValueColumnWidth column_width="75"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="19" />
+   <wvobject fp_name="/tb_cpu1_hw/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu1_hw/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu1_hw/out" type="array">
+      <obj_property name="ElementShortName">out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">out[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu1_hw/dut/U_CONTROL_UNIT/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu1_hw/dut/U_CONTROL_UNIT/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu1_hw/dut/U_CONTROL_UNIT/ilqt10" type="logic">
+      <obj_property name="ElementShortName">ilqt10</obj_property>
+      <obj_property name="ObjectShortName">ilqt10</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu1_hw/dut/U_CONTROL_UNIT/isrcsel" type="logic">
+      <obj_property name="ElementShortName">isrcsel</obj_property>
+      <obj_property name="ObjectShortName">isrcsel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu1_hw/dut/U_CONTROL_UNIT/sumsrcsel" type="logic">
+      <obj_property name="ElementShortName">sumsrcsel</obj_property>
+      <obj_property name="ObjectShortName">sumsrcsel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu1_hw/dut/U_CONTROL_UNIT/iload" type="logic">
+      <obj_property name="ElementShortName">iload</obj_property>
+      <obj_property name="ObjectShortName">iload</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu1_hw/dut/U_CONTROL_UNIT/sumload" type="logic">
+      <obj_property name="ElementShortName">sumload</obj_property>
+      <obj_property name="ObjectShortName">sumload</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu1_hw/dut/U_CONTROL_UNIT/alusrcsel" type="logic">
+      <obj_property name="ElementShortName">alusrcsel</obj_property>
+      <obj_property name="ObjectShortName">alusrcsel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu1_hw/dut/U_CONTROL_UNIT/outload" type="logic">
+      <obj_property name="ElementShortName">outload</obj_property>
+      <obj_property name="ObjectShortName">outload</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu1_hw/dut/U_CONTROL_UNIT/c_state" type="array">
+      <obj_property name="ElementShortName">c_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">c_state[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu1_hw/dut/U_DATAPATH/ireg_src_data" type="array">
+      <obj_property name="ElementShortName">ireg_src_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ireg_src_data[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu1_hw/dut/U_DATAPATH/alu_out" type="array">
+      <obj_property name="ElementShortName">alu_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_out[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu1_hw/dut/U_DATAPATH/sumreg_src_data" type="array">
+      <obj_property name="ElementShortName">sumreg_src_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sumreg_src_data[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu1_hw/dut/U_DATAPATH/alu_src_data" type="array">
+      <obj_property name="ElementShortName">alu_src_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_src_data[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu1_hw/dut/U_DATAPATH/ireg_out" type="array">
+      <obj_property name="ElementShortName">ireg_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ireg_out[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu1_hw/dut/U_DATAPATH/sumreg_out" type="array">
+      <obj_property name="ElementShortName">sumreg_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sumreg_out[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>
